@@ -1,0 +1,5 @@
+<div class="cards">
+  <div *ngFor="let player of players$ | async">
+    <app-card [player]="player"></app-card>
+  </div>
+</div>

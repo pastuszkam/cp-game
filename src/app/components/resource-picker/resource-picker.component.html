@@ -1,0 +1,10 @@
+<mat-button-toggle-group
+  #group="matButtonToggleGroup"
+  [value]="selectedValue$ | async"
+  (change)="onValueChange(group.value)"
+  name="resources"
+  color="primary"
+  aria-label="resources">
+    <mat-button-toggle [value]="Resource.People">People</mat-button-toggle>
+    <mat-button-toggle [value]="Resource.Starships" id="starshipToggle">Starships</mat-button-toggle>
+</mat-button-toggle-group>

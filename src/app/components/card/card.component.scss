@@ -1,0 +1,15 @@
+.card {
+  min-width: 300px;
+}
+.mat-card-title, 
+.mat-card-subtitle {
+  color: #000;
+  text-align: left;
+}
+.mat-card-actions {
+  color: #000;
+}
+.star-wars-image {
+  background-image: url('https://www.hlj.com/media/catalog/product/cache/467d58fefb7842fb1aed595e14a86f25/s/m/smp66820_0.jpg');
+  background-size: cover;
+}
